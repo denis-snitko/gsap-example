@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+  <title>GSAP Starter — Полный шаблон</title>
+  <script type="module" crossorigin src="./assets/index-Kqud9_Lc.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Cdwh7iQT.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul>
+        <li><a href="#home">Главная</a></li>
+        <li><a href="#about">О нас</a></li>
+        <li><a href="#services">Сервисы</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><a href="#portfolio">Портфолио</a></li>
+      </ul>
+    </nav>
+    <div class="header-burger" tabindex="0" aria-label="Меню">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  <div class="mobile-nav__overlay"></div>
+  <nav class="mobile-nav">
+    <span class="burger-close" aria-label="Закрыть меню">
+      <span class="burger-close-line"></span>
+      <span class="burger-close-line"></span>
+    </span>
+    <ul>
+      <li><a href="#home">Главная</a></li>
+      <li><a href="#about">О нас</a></li>
+      <li><a href="#services">Сервисы</a></li>
+      <li><a href="#gallery">Галерея</a></li>
+      <li><a href="#contact">Контакты</a></li>
+      <li><a href="#portfolio">Портфолио</a></li>
+    </ul>
+  </nav>
+  <section id="home" class="section section-home">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Создавай движение</h1>
+      <p>Используй мощь GSAP, чтобы оживить свои идеи и превратить дизайн в динамичный опыт.</p>
+      <a href="#about" class="btn">Начать</a>
+    </div>
+  </section>
+  <section id="about" class="section section-about">
+    <div class="about-content">
+      <div class="text-block">
+        <h2>О нас</h2>
+        <p>Мы команда креативных разработчиков и дизайнеров, создающих современные сайты с плавной интерактивностью и
+          фокусом на UX. Мы верим, что каждая деталь имеет значение — от микроанимации до цветового баланса.</p>
+        <p>Наша цель — помочь брендам рассказать историю в движении.</p>
+        <ul class="about-list">
+          <li>10+ лет опыта в digital-проектах разного масштаба</li>
+          <li>Свои инхаус-иллюстраторы, motion-дизайнеры и фронт-разработчики</li>
+          <li>Внедряем самые современные анимационные решения в реальных продуктах</li>
+          <li>Любим создавать wow-эффекты без ущерба UX</li>
+        </ul>
+        <blockquote>"Каждый новый проект — как новое произведение искусства. Главное чтобы оно жило..."</blockquote>
+      </div>
+      <div class="image-block">
+        <img src="https://picsum.photos/700/600?random=11" alt="Team">
+      </div>
+    </div>
+  </section>
+  <section id="services" class="section section-services">
+    <h2>Наши сервисы</h2>
+    <div class="services-vertical-list">
+      <div class="service-v-card svc1">
+        <div class="svc-n">01</div>
+        <h3>UI/UX дизайн</h3>
+        <div class="svc-tagline">Ваша идея — <b>в эффектном стиле</b></div>
+        <div class="svc-desc">Красивые и продуманные интерфейсы для вашего бизнеса.</div>
+      </div>
+      <div class="service-v-card svc2">
+        <div class="svc-n">02</div>
+        <h3>Frontend</h3>
+        <div class="svc-tagline"><b>Быстро</b> и кроссбраузерно</div>
+        <div class="svc-desc">Современные сайты: быстро, адаптивно, чисто.</div>
+      </div>
+      <div class="service-v-card svc3">
+        <div class="svc-n">03</div>
+        <h3>Анимация GSAP</h3>
+        <div class="svc-tagline">Детали заставят <b>залипнуть</b></div>
+        <div class="svc-desc">Вау-анимации для захватывающего пользовательского опыта.</div>
+      </div>
+      <div class="service-v-card svc4">
+        <div class="svc-n">04</div>
+        <h3>Брендинг</h3>
+        <div class="svc-tagline">Ваш фирменный <b>след в цифре</b></div>
+        <div class="svc-desc">Логотип и стиль, которые выделяют вас среди других.</div>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="section section-gallery">
+    <h2>Галерея работ</h2>
+    <div class="gallery-row">
+      <img src="https://picsum.photos/400/300?random=31" alt="">
+      <img src="https://picsum.photos/400/300?random=32" alt="">
+      <img src="https://picsum.photos/400/300?random=33" alt="">
+      <img src="https://picsum.photos/400/300?random=34" alt="">
+      <img src="https://picsum.photos/400/300?random=35" alt="">
+      <img src="https://picsum.photos/400/300?random=36" alt="">
+    </div>
+  </section>
+  <section id="portfolio" class="section section-portfolio">
+    <h2>Наши проекты</h2>
+    <div class="portfolio-grid">
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=51" alt="Проект 1">
+        <div class="portfolio-overlay">
+          <h3>E-commerce платформа</h3>
+          <p>Современный интернет-магазин с интуитивным интерфейсом и быстрой загрузкой</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=52" alt="Проект 2">
+        <div class="portfolio-overlay">
+          <h3>Корпоративный сайт</h3>
+          <p>Представительский сайт с анимациями и адаптивным дизайном</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=53" alt="Проект 3">
+        <div class="portfolio-overlay">
+          <h3>Мобильное приложение</h3>
+          <p>UX/UI дизайн для мобильного приложения с современным интерфейсом</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=54" alt="Проект 4">
+        <div class="portfolio-overlay">
+          <h3>Лендинг-страница</h3>
+          <p>Высококонверсионная посадочная страница с GSAP-анимациями</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=55" alt="Проект 5">
+        <div class="portfolio-overlay">
+          <h3>Веб-приложение</h3>
+          <p>Интерактивное веб-приложение с современными технологиями</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=56" alt="Проект 6">
+        <div class="portfolio-overlay">
+          <h3>Блог-платформа</h3>
+          <p>Современная CMS для ведения блога с удобным редактором</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=57" alt="Проект 7">
+        <div class="portfolio-overlay">
+          <h3>Стартап-сайт</h3>
+          <p>Презентационный сайт для IT-стартапа с анимациями</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+      <div class="portfolio-item">
+        <img src="https://picsum.photos/400/300?random=58" alt="Проект 8">
+        <div class="portfolio-overlay">
+          <h3>Портфолио-сайт</h3>
+          <p>Креативное портфолио дизайнера с интерактивными элементами</p>
+          <a href="#" class="portfolio-link">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact" class="section section-contact">
+    <div class="contact-container">
+      <div class="contact-text">
+        <h2>Свяжитесь с нами</h2>
+        <p>Есть идея? Мы поможем воплотить её в жизнь. Напишите нам и начнём обсуждение проекта.</p>
+      </div>
+      <form class="contact-form">
+        <input type="text" placeholder="Ваше имя" required>
+        <input type="email" placeholder="Email" required>
+        <textarea rows="4" placeholder="Сообщение" required></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025. Все права защищены.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
